@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liangFrame/configRepository
+          username: liangFrame
+          password: baobao19950802
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+env:
+  dev
