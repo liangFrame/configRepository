@@ -1,14 +1,12 @@
 spring:
   application:
-    name: config
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/liangFrame/configRepository
-          username: liangFrame
-          password: baobao19950802
-eureka:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost:3306/spring_cloud_sell?characterEncoding=utf-8&useSSL=false
+  eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
