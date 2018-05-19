@@ -6,7 +6,7 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: product
-      sensitiveHeaders:   # 敏感的头（设置为空，就可以使用cookie了。）
+      #sensitiveHeaders:   # 敏感的头（设置为空，就可以使用cookie了。）
 #      排除某些路由功能
 #    - /product/sell/buyer/product/list
  #    - /myProduct/sell/buyer/product/list 这两个可以用- /**/sell/buyer/product/list替换
