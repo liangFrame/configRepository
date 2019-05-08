@@ -85,4 +85,4 @@ mybatis:
     default-fetch-size: 100
     default-statement-timeout: 5000
 go:
-  name: 65
+  name: 11
